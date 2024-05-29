@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        .btn {
+            height: 20px;
+            width: 170px;
+            background-color: blue;
+            border: 2px solid black;
+            border-radius: 10px;
+            transition: width 0.3s, height 0.3s, border 0.3s;
+        }
+        .btn:hover {
+            height: 25px;
+            width: 180px;
+            background-color: red;
+        }
+        .btn:active {
+            height: 25px;
+            width: 180px;
+            background-color: rgb(15, 177, 18);
+        }
+    </style>
+</head>
+<body>
+    <button class="btn">Learning Pseudo</button>
+</body>
+</html>

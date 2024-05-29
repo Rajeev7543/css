@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .box {
+            height:50px;
+            width: 50px;
+            border: 2px solid black;
+           
+            border-radius: 5px;
+            position: relative;
+            top: 50px;
+            left: 50px;
+            transition: all 1s ease-in;
+            margin: 10px;
+        }
+        #box1:hover {
+            transform: rotatey(170deg);
+        }
+        #box2:hover {
+            transform: rotate(170deg);
+        }
+        #box1{background-color: cyan;}
+        #box2{background-color: blueviolet;}
+    </style>
+</head>
+<body>
+    <div id="box1" class="box">Rotate1</div>
+    <div id="box2" class="box">Rotate2</div>
+</body>
+</html>
